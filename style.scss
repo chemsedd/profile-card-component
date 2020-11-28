@@ -1,0 +1,11 @@
+$primary-dark-cyan: hsl(185, 75%, 39%);
+$primary-dark-blue: hsl(229, 23%, 23%);
+$primary-dark-graish-blue: hsl(227, 10%, 46%);
+
+body {
+    background-color: $primary-dark-cyan;
+}
+
+.card {
+    background-color: white;
+}
