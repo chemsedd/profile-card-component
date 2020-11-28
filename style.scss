@@ -1,11 +1,42 @@
+// Primary
 $primary-dark-cyan: hsl(185, 75%, 39%);
 $primary-dark-blue: hsl(229, 23%, 23%);
 $primary-dark-graish-blue: hsl(227, 10%, 46%);
+// Neutral
+$neutral-dark-gray: hsl(0, 0%, 59%);
+
+$font-lg: 18px;
 
 body {
+    font-family: "Kumbh Sans";
     background-color: $primary-dark-cyan;
 }
 
-.card {
-    background-color: white;
+.card-header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+$shadow-black: hsla(0, 0%, 0%, 0.2);
+
+.kumbh-bold {
+    color: $primary-dark-blue;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.age {
+    color: $neutral-dark-gray;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.kumbh-light {
+    color: $neutral-dark-gray;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.shadow {
+    box-shadow: 0px 0px 80px 1px $shadow-black;
 }

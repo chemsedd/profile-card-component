@@ -1,8 +1,33 @@
 body {
+  font-family: "Kumbh Sans";
   background-color: #19a2ae;
 }
 
-.card {
-  background-color: white;
+.card-header {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.kumbh-bold {
+  color: #2d3248;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.age {
+  color: #969696;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.kumbh-light {
+  color: #969696;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 80px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 80px 1px rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
