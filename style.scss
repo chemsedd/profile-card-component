@@ -5,8 +5,6 @@ $primary-dark-graish-blue: hsl(227, 10%, 46%);
 // Neutral
 $neutral-dark-gray: hsl(0, 0%, 59%);
 
-$font-lg: 18px;
-
 body {
     font-family: "Kumbh Sans";
     background-color: $primary-dark-cyan;
@@ -19,24 +17,35 @@ body {
 
 $shadow-black: hsla(0, 0%, 0%, 0.2);
 
-.kumbh-bold {
+// Text colors
+.text-dark-blue {
     color: $primary-dark-blue;
+}
+
+.text-dark-gray {
+    color: $neutral-dark-gray;
+}
+
+// Text size and weight
+$font-lg: 18px;
+$font-sm: 14px;
+
+.kumbh-bold {
     font-size: 18px;
     font-weight: 700;
 }
 
-.age {
-    color: $neutral-dark-gray;
+.kumbh-regular {
     font-size: 18px;
     font-weight: 400;
 }
 
-.kumbh-light {
-    color: $neutral-dark-gray;
+.kumbh-regular-sm {
     font-size: 14px;
     font-weight: 400;
 }
 
+// Shadow
 .shadow {
     box-shadow: 0px 0px 80px 1px $shadow-black;
 }

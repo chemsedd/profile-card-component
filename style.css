@@ -8,20 +8,25 @@ body {
   border-top-right-radius: 30px;
 }
 
-.kumbh-bold {
+.text-dark-blue {
   color: #2d3248;
+}
+
+.text-dark-gray {
+  color: #969696;
+}
+
+.kumbh-bold {
   font-size: 18px;
   font-weight: 700;
 }
 
-.age {
-  color: #969696;
+.kumbh-regular {
   font-size: 18px;
   font-weight: 400;
 }
 
-.kumbh-light {
-  color: #969696;
+.kumbh-regular-sm {
   font-size: 14px;
   font-weight: 400;
 }
