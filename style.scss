@@ -5,8 +5,11 @@ $primary-dark-graish-blue: hsl(227, 10%, 46%);
 // Neutral
 $neutral-dark-gray: hsl(0, 0%, 59%);
 
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap");
+
 body {
-    font-family: "Kumbh Sans";
+    // font-family: "Kumbh Sans";
+    font-family: "Kumbh Sans", sans-serif;
     background-color: $primary-dark-cyan;
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
