@@ -8,25 +8,38 @@ $neutral-dark-gray: hsl(0, 0%, 59%);
 body {
     font-family: "Kumbh Sans";
     background-color: $primary-dark-cyan;
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: -80% 180%, right -60% top -115%;
 }
 
-.bg-pattern-top {
-    position: absolute;
-    top: -75%;
-    left: -25%;
-    z-index: -1;
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
-.bg-pattern-bottom {
-    position: absolute;
-    bottom: -70%;
-    right: -50%;
-    z-index: -1;
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: $primary-dark-blue;
 }
 
 .card-header {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+
+.border-5 {
+    border-width: 5px;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 $shadow-black: hsla(0, 0%, 0%, 0.2);

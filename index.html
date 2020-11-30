@@ -10,59 +10,58 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
-<body>
-  <!-- Main container -->
-  <div class="flex items-center justify-center w-screen h-screen">
-    <!-- Background svg -->
-    <img class="bg-pattern-top" src="images/bg-pattern-top.svg" alt="">
-    <img class="bg-pattern-bottom" src="images/bg-pattern-bottom.svg" alt="">
-    <!-- Card -->
-    <div class="bg-white w-3/4 sm:w-1/4 rounded-xl shadow text-center">
-      <!-- Card content -->
-      <div class="rounded-t-xl bg-no-repeat bg-top" style="background-image: url('images/bg-pattern-card.svg');">
-        <div class="w-full flex flex-col gap-y-1 items-center pt-24 pb-5">
-          <img class="rounded-full w-1/4 border-4 border-white" src="images/image-victor.jpg" alt="">
-          <div class="kumbh-bold text-dark-blue">Victor Crest <span class="kumbh-regular text-dark-gray">26</span>
+<body class="w-full h-full">
+  <!-- Page Container -->
+  <div class="flex flex-col items-stretch min-h-full">
+    <header class="flex-grow flex-shrink-0"></header>
+    <!-- Main Container -->
+    <main class="flex-grow flex-shrink-0">
+      <div class="flex flex-col items-center justify-center">
+        <!-- Card -->
+        <div class="bg-white w-3/4 sm:w-1/4 rounded-xl shadow text-center">
+          <!-- Card content -->
+          <div class="rounded-t-xl bg-no-repeat bg-top" style="background-image: url('images/bg-pattern-card.svg');">
+            <div class="w-full flex flex-col gap-y-1 items-center pt-24 pb-5">
+              <img class="w-30 rounded-full border-5 border-white" src="images/image-victor.jpg" alt="image-victor">
+              <div class="kumbh-bold text-dark-blue pt-4">Victor Crest <span
+                  class="kumbh-regular text-dark-gray">26</span>
+              </div>
+              <div class="kumbh-regular-sm text-dark-gray">London</div>
+            </div>
           </div>
-          <span class="kumbh-regular-sm text-dark-gray">London</span>
+          <hr>
+          <!-- Card footer -->
+          <div class="grid grid-cols-3 px-6">
+            <div class="p-4">
+              <h1 class="kumbh-bold text-dark-blue">80K</h1>
+              <div class="kumbh-regular-sm text-dark-gray">Followers</div>
+            </div>
+            <div class="p-4">
+              <h1 class="kumbh-bold text-dark-blue">803K</h1>
+              <div class="kumbh-regular-sm text-dark-gray">Likes</div>
+            </div>
+            <div class="p-4">
+              <h1 class="kumbh-bold text-dark-blue">1.4K</h1>
+              <div class="kumbh-regular-sm text-dark-gray">Photos</div>
+            </div>
+          </div>
         </div>
       </div>
-      <hr>
-      <!-- Card footer -->
-      <div class="grid grid-cols-3 px-0">
-        <div class="p-4">
-          <h1 class="kumbh-bold text-dark-blue">80K</h1>
-          <div class="kumbh-regular-sm text-dark-gray">Followers</div>
-        </div>
-        <div class="p-4">
-          <h1 class="kumbh-bold text-dark-blue">803K</h1>
-          <div class="kumbh-regular-sm text-dark-gray">Likes</div>
-        </div>
-        <div class="p-4">
-          <h1 class="kumbh-bold text-dark-blue">1.4K</h1>
-          <div class="kumbh-regular-sm text-dark-gray">Photos</div>
-        </div>
+    </main>
+    <!-- Footer -->
+    <!-- <footer class="flex-shrink-0 attribution p-2">
+      <div>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Chems Eddine Senoussi</a>.
       </div>
-    </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis facere veniam nisi tempora saepe ipsam
+        magnam eum aut iure ea?
+      </div>
+    </footer> -->
   </div>
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
 </body>
 
 </html>
